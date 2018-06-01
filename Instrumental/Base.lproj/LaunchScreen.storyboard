@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="TimesNewRomanBoldItalic.ttf">
+            <string>TimesNewRomanPS-BoldItalicMT</string>
+        </array>
+        <array key="TimesNewRomanItalic.ttf">
+            <string>TimesNewRomanPS-ItalicMT</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="DrF-To-vRL">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instrumental" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhe-KC-8rF">
+                                <rect key="frame" x="32" y="65" width="256" height="37"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldItalicMT" family="Times New Roman" pointSize="33"/>
+                                <color key="textColor" red="1" green="0.46318313358977459" blue="0.25398237697794412" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="4" height="-1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Roshnee Meena PERUMAL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E8U-Wk-eJI">
+                                <rect key="frame" x="32" y="183" width="256" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="tDO-lx-0Dt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.46318313360000002" blue="0.25398237699999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="roshneemeena0312@gmail.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWS-gQ-nEn">
+                                <rect key="frame" x="32" y="220" width="256" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="24" id="gQ1-fb-8X0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.46318313360000002" blue="0.25398237699999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="roshnee-meena.perumal@epita.fr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GfB-D2-BEb">
+                                <rect key="frame" x="88" y="258" width="230" height="21"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.46318313360000002" blue="0.25398237699999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="EWS-gQ-nEn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="2pm-FJ-ZlM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mhe-KC-8rF" secondAttribute="trailing" constant="32" id="89k-Ik-avi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="DrF-To-vRL" secondAttribute="bottom" id="8ll-yL-kcN"/>
+                            <constraint firstItem="DrF-To-vRL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="CM1-wA-pTh"/>
+                            <constraint firstItem="DrF-To-vRL" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="Fma-HI-s1C"/>
+                            <constraint firstItem="E8U-Wk-eJI" firstAttribute="top" secondItem="mhe-KC-8rF" secondAttribute="bottom" constant="81" id="M5c-VE-5Rt"/>
+                            <constraint firstItem="E8U-Wk-eJI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="OLQ-I9-8G8"/>
+                            <constraint firstItem="DrF-To-vRL" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="WkD-80-dCI"/>
+                            <constraint firstItem="EWS-gQ-nEn" firstAttribute="top" secondItem="E8U-Wk-eJI" secondAttribute="bottom" constant="16" id="WlW-LC-1fx"/>
+                            <constraint firstItem="EWS-gQ-nEn" firstAttribute="centerX" secondItem="GfB-D2-BEb" secondAttribute="centerX" id="Zp5-zU-aUg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="DrF-To-vRL" secondAttribute="top" constant="20" id="dLT-Uj-0M8"/>
+                            <constraint firstItem="DrF-To-vRL" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="fsI-Vl-ZWt"/>
+                            <constraint firstItem="mhe-KC-8rF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="ga9-Na-VG9"/>
+                            <constraint firstItem="mhe-KC-8rF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="hcQ-mE-FPS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DrF-To-vRL" secondAttribute="trailing" id="oki-wb-nJz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="E8U-Wk-eJI" secondAttribute="trailing" constant="32" id="tSK-Bb-uez"/>
+                            <constraint firstItem="E8U-Wk-eJI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="uoS-Ra-VLj"/>
+                            <constraint firstItem="GfB-D2-BEb" firstAttribute="top" secondItem="EWS-gQ-nEn" secondAttribute="bottom" constant="17" id="xnC-J0-K9K"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EWS-gQ-nEn" secondAttribute="trailing" constant="32" id="y1J-yL-ZXv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splash" width="650" height="650"/>
+    </resources>
+</document>
